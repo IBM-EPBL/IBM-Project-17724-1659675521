@@ -27,12 +27,8 @@ void loop()
     noTone(11);
     delay(1000);
   }
-
   else{
     digitalWrite(13,LOW);
   }
-  
   Serial.println(p);
-  
-  
 }
